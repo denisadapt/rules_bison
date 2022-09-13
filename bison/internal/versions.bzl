@@ -29,6 +29,7 @@ VERSION_URLS = {
         "urls": _urls("bison-3.8.2.tar.xz"),
         "sha256": "9bba0214ccf7f1079c5d59210045227bcf619519840ebfa80cd3849cff5a5bf2",
         "copyright_year": "2021",
+    },
     "3.3.2": {
         "urls": _urls("bison-3.3.2.tar.xz"),
         "sha256": "039ee45b61d95e5003e7e8376f9080001b4066ff357bde271b7faace53b9d804",
