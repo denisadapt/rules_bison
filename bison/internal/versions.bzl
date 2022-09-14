@@ -22,13 +22,13 @@ _MIRRORS = [
 def _urls(filename):
     return [m + filename for m in _MIRRORS]
 
-DEFAULT_VERSION = "3.4.1"
+DEFAULT_VERSION = "3.8.2"
 
 VERSION_URLS = {
     "3.8.2": {
         "urls": _urls("bison-3.8.2.tar.xz"),
         "sha256": "9bba0214ccf7f1079c5d59210045227bcf619519840ebfa80cd3849cff5a5bf2",
-        "copyright_year": "2019",
+        "copyright_year": "2021",
     },
     "3.4.1": {
         "urls": _urls("bison-3.4.1.tar.xz"),
