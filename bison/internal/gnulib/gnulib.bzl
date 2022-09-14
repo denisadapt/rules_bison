@@ -27,52 +27,52 @@ def _urls(filename):
     return [m.format(filename) for m in _MIRRORS]
 
 BISON_VERSION_TO_GNULIB_URLS = {
-    "3.8.2": {
+    "bison_3.8.2": {
         "urls": _urls("7818455627c5e54813ac89924b8b67d0bc869146"),
         "sha256": "9bba0214ccf7f1079c5d59210045227bcf619519840ebfa80cd3849cff5a5bf2",
         "stripPrefix": "gnulib-7818455627c5e54813ac89924b8b67d0bc869146",
     },
-    "3.4.2": {
+    "bison_3.4.2": {
         "urls": _urls("d654989d8bad1a82c4dcbd80204f20147408106e"),
         "sha256": "46db689243c4e0a56909a4feedec9de16436a47f23951a9a313564f739a40382",
         "stripPrefix": "gnulib-d654989d8bad1a82c4dcbd80204f20147408106e",
     },
-    "3.3.2": {
+    "bison_3.3.2": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.3.1": {
+    "bison_3.3.1": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.3": {
+    "bison_3.3": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.2.4": {
+    "bison_3.2.4": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.2.3": {
+    "bison_3.2.3": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.2.2": {
+    "bison_3.2.2": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.2.1": {
+    "bison_3.2.1": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
     },
-    "3.2": {
+    "bison_3.2": {
         "urls": _urls("788db09a9f88abbef73c97e8d7291c40455336d8"),
         "sha256": "58971cd9be5213828fb7aa9647912a7cecc61ce6fbb7b3949752573af2fa3f50",
         "stripPrefix": "gnulib-788db09a9f88abbef73c97e8d7291c40455336d8",
