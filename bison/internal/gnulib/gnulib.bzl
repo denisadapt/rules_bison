@@ -19,10 +19,13 @@ load(
     _VERSION_URLS = "VERSION_URLS",
 )
 
-_GNULIB_VERSION = "788db09a9f88abbef73c97e8d7291c40455336d8"
-_GNULIB_SHA256 = "4350696d531852118f3735a0e2d1091746388392c27d582f0cc241b6a39fe493"
+#_GNULIB_VERSION = "788db09a9f88abbef73c97e8d7291c40455336d8"
+#_GNULIB_SHA256 = "4350696d531852118f3735a0e2d1091746388392c27d582f0cc241b6a39fe493"
+_GNULIB_VERSION = "d654989d8bad1a82c4dcbd80204f20147408106e"
+_GNULIB_SHA256 = "46db689243c4e0a56909a4feedec9de16436a47f23951a9a313564f739a40382"
 
-_URL_BASE = "https://github.com/jmillikin/rules_bison/releases/download/v0.1/bison-gnulib-{}.tar.xz"
+#_URL_BASE = "https://github.com/jmillikin/rules_bison/releases/download/v0.1/bison-gnulib-{}.tar.xz"
+_URL_BASE = "https://github.com/coreutils/gnulib/archive/{}.zip"
 
 _CONFIG_HEADER = """
 #include "gnulib/lib/config.in.h"
